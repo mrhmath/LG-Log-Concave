@@ -20,9 +20,9 @@ This repository includes several datasets derived from LG-explorer output and su
 	- A: matrix of coefficients.
 	- test: number of concavity conditions that do not hold.
 
-- *knotinfo.csv*: a snapshot of the complete content of the KnotInfo and LinkInfo databases.
+- *knotinfo.csv*: a snapshot of the complete content of the [the KnotInfo database](https://pypi.org/project/database-knotinfo/).
  
-- *knotinfo_special_alternating.csv*: selected knots from knotinfo.csv (alternating=Y, positive=N)
+- *knotinfo_special_alternating.csv*: selected knots from *knotinfo.csv*  (alternating=Y, positive=N)
 
 ## Notebooks
 
