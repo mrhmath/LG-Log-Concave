@@ -1,0 +1,74 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2015,         64]
+NotebookOptionsPosition[      1542,         47]
+NotebookOutlinePosition[      1939,         63]
+CellTagsIndexPosition[      1896,         60]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"text", "=", 
+    RowBox[{"Import", "[", 
+     RowBox[{
+     "\"\</Users/song/Desktop/Ben/code/data/A_raw/03A.lg\>\"", ",", 
+      "\"\<Text\>\""}], "]"}]}], ";"}], "  "}], "\n", 
+ RowBox[{
+  RowBox[{"Print", "[", "text", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.959222884701335*^9, 3.959222884702496*^9}, {
+  3.959222929310108*^9, 3.9592229637592916`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"e6e52fe7-da3e-41b2-8dcd-c762d4e36a91"],
+
+Cell[BoxData["\"\<expr = LinksGouldInvariant[2, 1, PrimeKnot[3, \\\"A\\\", \
+1]] =\\\\n  1 + 2/#1^2 + (-#1^(-3) - #1^(-1))*(#2^(-2) + #2^2) + (#2^(-4) + \
+#2^4)/#1^2 &\\\\nnewExpr = expr /. {#1 -> t, #2 -> s}\\\\n\>\""], "Print",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.95922294915276*^9, 3.959222965383531*^9}, {
+  3.959223093470847*^9, 
+  3.9592231053904953`*^9}},ExpressionUUID->"fd223d02-ac08-4c85-95e4-\
+d9ebcca5a9d4"]
+}, Open  ]]
+},
+WindowSize->{808, 759},
+WindowMargins->{{Automatic, 105}, {Automatic, 1}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c0116ff4-5bfe-4d01-af0c-2ba4f5c790ac"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 488, 12, 52, "Input",ExpressionUUID->"e6e52fe7-da3e-41b2-8dcd-c762d4e36a91"],
+Cell[1071, 36, 455, 8, 82, "Print",ExpressionUUID->"fd223d02-ac08-4c85-95e4-d9ebcca5a9d4"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
