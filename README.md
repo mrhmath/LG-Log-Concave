@@ -19,11 +19,7 @@ This repository includes several datasets derived from LG-explorer output and su
 	- newExpr: the transformed expression after the change of variables $(t_0,t_1)$.
 	- A: matrix of coefficients.
 	- test: number of concavity conditions that do not hold.
-
-- *knotinfo.csv*: a snapshot of the complete content of the [the KnotInfo database](https://pypi.org/project/database-knotinfo/).
- 
-- *knotinfo_special_alternating.csv*: selected knots from *knotinfo.csv*  (alternating=Y, positive=N)
-
+   
 ## Notebooks
 
 The repository contains Jupyter notebooks for data generation and processing:
@@ -33,9 +29,6 @@ The repository contains Jupyter notebooks for data generation and processing:
 - `A2_LG_Log_Concave.ipynb`
   - Checks the Log-Concavity property.
   - Generates both *A_whole* and *A_figures* from *A_new*.
-- `Knotinfo.ipynb`
-  - Selects the desired knot properties from the KnotInfo database.  
-  - **Prerequisite:** Install the database first using `pip install database-knotinfo`.
 
 The repository also contains a Python notebook for verifying the Lorenztian property of a polynomial in the variables $(t_0,t_1)$:
 - `LG_Lorentzian.py`
