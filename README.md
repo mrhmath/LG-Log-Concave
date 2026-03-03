@@ -5,7 +5,7 @@ This repository provides the official Python implementation of the paper \
 [On Some Log-concavity Properties Of The Alexander--Conway And Links--Gould Invariants](https://arxiv.org/abs/2509.16868).
 
 The data files hosted and python scripts are mirrored at \
-[Harvard Dataverse:10.7910/DVN/E3UFLP](https://arxiv.org/abs/math/2509.16868).
+[Harvard Dataverse:10.7910/DVN/E3UFLP](https://doi.org/10.7910/DVN/E3UFLP).
 
 ## Repository Description
 
