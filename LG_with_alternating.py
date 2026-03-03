@@ -1,0 +1,1 @@
+# Python script content for LG_with_alternating.py

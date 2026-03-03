@@ -1,0 +1,1 @@
+# Python script content for d2cube_generator.py
